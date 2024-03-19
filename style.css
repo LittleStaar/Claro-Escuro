@@ -1,0 +1,78 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --pink: #f8009d;
+    --yellow: #ad8806;
+    
+}
+*{
+    color: var (--fontColor);
+}
+body{
+    background: var(--bg);
+    text-align: center;
+    font-family: cursive;
+}
+.light-theme{
+    --bg: var(--black);
+    --fontColor: var(--black);
+    --btnBg:var(--black);
+    --btnFontColor: var(--white);
+}
+.dark-theme{
+    --bg: var(--yellow);
+    --fontColor: var(--green);
+    --btnBg:var(--white);
+    --btnFontColor:var(--black);
+}
+.btn{
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    color: var(--black);
+    background-color: var(--white);
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.btn:focus{
+    outline-style: none;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: cursive;
+}
+.fundo{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    background-color: #8d7005;
+    font-family: monospace;
+}
+.fundo-2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #8d7005;
+    font-family: monospace;
+}
+.preto{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    color: #000000;
+    font-size: 30px; 
+}
